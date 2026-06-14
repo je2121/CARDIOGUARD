@@ -22,7 +22,7 @@ st.set_page_config(
 
 @st.cache_resource
 def load_model():
-    return joblib.load("models/xgb_cvd_model.pkl")
+    return joblib.load("files/models/xgb_cvd_model.pkl")
 
 pipeline = load_model()
 
